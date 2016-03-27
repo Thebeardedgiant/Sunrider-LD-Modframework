@@ -886,15 +886,19 @@ init 5 python:
     storeweps.append(GravityGun)
     storeweps.remove(Curse) # Would be auto-carried because Curse is still a subtype of Support
     
-            
-# Storeships
-# Storeweps
+    #These should update to include any new/mod ships and allow for global mods.
     
 # Weapon interaction points (weapon funcs, all weapons have ammo)
 
-
+    for ship in storeships:
+        ship.weapon_funcs = []
+        ship.move_funcs = []
+        ship.East = ""
+        ship.West = ""
+        ship.Direction = ""
+        
+    
 
 # Ship movement Funcs
 
-# 
-
+# Ship destruction Funcs
