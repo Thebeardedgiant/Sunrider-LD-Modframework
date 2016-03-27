@@ -902,3 +902,9 @@ init 5 python:
 # Ship movement Funcs
 
 # Ship destruction Funcs
+
+# Turn Functions
+
+# Turn_start
+
+# Battle_start
